@@ -1,0 +1,163 @@
+Personal Details
+
+
+Name:    Conall O'Brien
+
+Address: 21 Meadow Close, 
+         Blackrock,
+			Co Dublin,
+			Ireland 
+			
+Phone:	+353 (0)87 9194139 
+
+Email:   conall@conall.net 
+
+Website: http://www.conall.net 
+
+Date Of Birth: 27th March 1983 
+
+Place Of Birth: Dublin, Ireland 
+
+Nationality: Irish
+
+
+Education
+
+
+Secondary School: 
+
+September 1996 - 
+June 2001:         Blackrock College
+                   Blackrock
+						 Co. Dublin
+
+Third Level: 
+
+October 2001 - 
+Present:           Computer Science BA(Mod)
+                   Dublin University
+						 Trinity College
+
+
+Awards
+
+
+1997: Blackrock College  - Computer Studies Award
+
+1999: Blackrock College - Construction Studies Award
+
+
+Qualifications
+
+
+1999: Europ ean Computer Driver's Licence (ECDL) 
+
+2001: Leaving Certificate - All Higher Level 
+      Unless Otherwise Stated:
+
+      Applied Mathematics    - B3
+		Building Construction  - B2
+		Chemistry              - C3
+		English                - B3
+		Irish (Ordinary)       - D1
+		Latin                  - C3
+		Mathematics            - A2
+		Technical Drawing      - B2
+
+
+Objective
+
+
+I intend to complete my studies in Computer Science in Trinity College
+Dublin, enhancing my computer skills and interest in the computer
+hardware and software. In particular, I intend to expand my knowledge
+and experience with the Unix and Linux operating systems and networking
+protocols. I also intend to learn other programming languages
+including Python, Ruby, and C.
+
+
+Interests And Hobbies
+
+
+Interests:
+
+Architecture; Computing (Networking, Servers, Graphics, Portable Device 
+Synchronisation, Distributed computing); Technology; The Internet; 
+Mobile Phones; Mobile Computing; Furniture Making; Multimedia.
+
+Hobbies:
+
+Reading; Water Sports; Music; Films; Travel.
+
+
+Professional Experience
+
+
+August - October 
+2001:             Summer Student 
+                  Group Payroll And Loans Administration 
+						AIB Bank 
+						
+March 1998 - 
+Present:          Network Administrator
+						InfoCAD Data LTD 
+						
+March 1998 -
+August 2002:      Systems Administrator 
+						Room 205 Computer Room 
+						Ballinteer Community School 
+						
+October 2002 -
+April 2004:       Junior Systems Administrator
+						DU Internet Society (Netsoc) 
+						Dublin University, 
+						Trinity College
+
+March 2003 -      Note Taker                  
+Present:          Student Disability Services 
+                  Dublin University           
+                  Trinity College             
+                                              
+July 2004 -       Network Administrator (Temporary)
+August 2004:      IT Dept                     
+                  Critical Path               
+                                              
+July 2004 -       Network Administrator            
+Present:          School of Mathematics       
+                  Dublin University           
+                  Trinity College             
+
+
+References
+
+
+Written references available up on request
+
+
+Computer Experience
+
+
+I have admin experience with Microsoft Windows O/S (3.1x, 9x, 
+ME, XP, NT, 2000, XP) and Microsoft DOS O/S. I have admin experience 
+with the GNU/Linux O/S (Debian, Red Hat, Ensim), various flavours of
+Unix(FreeBSD, Solaris, Solaris x86, HP-UX) and Mac OS X, I also have 
+intermediate user experience with various other Unix O/S (Compaq Tru64,
+etc). I am familiar professionally with Microsoft Office and OpenOffice 
+Office Suites. I also have experience with various graphics packages 
+(Photoshop, Paintshop Pro, The GIMP). I have experience with various 
+networking and internet software (Apache, BIND, Squid, Samba, Postfix, 
+MySQL, Active Directory, Symantec Ghost, etc), networking protocols 
+(IPv4, IPv6, 802.11 b/g, NetBIOS), firewalls, routers and extensive 
+hardware experience.
+
+
+I have intermediate experience programming in Java (J2EE,
+WFC, Swing) PHP, Motorola 68000 Assembly, QBASIC, C++ (MFC, Qt),
+JavaScript, VHDL and Eiffel (SmartEiffel and SmallEiffel).
+
+I have experience writing validating HTML (up to 4.01) and XHTML (up
+to 1.1) documents and web sites, conforming to international standards
+and accessibility guidelines (WCAG), using cascading stylesheets (up to
+CSS 2). I also have experience with XML, typesetting in the LaTeX
+typesetting language and various LaTeX graphics packages and using SQL
+databases.

@@ -1,0 +1,52 @@
+This is TeX, Version 3.14159 (Web2C 7.3.7) (format=latex 2002.9.21)  20 FEB 2003 17:47
+**Conall O'Brien CV.tex
+(/usr/share/texmf/tex/latex/tools/.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+File ignored)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> Conall O
+            'Brien CV.tex
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+<*> Conall O
+            'Brien CV.tex
+? q
+OK, entering \batchmode...
+Missing character: There is no O in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+! Emergency stop.
+<*> Conall O'Brien CV.tex
+                         
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 10847
+ 117 string characters out of 70946
+ 44507 words of memory out of 263001
+ 3034 multiletter control sequences out of 10000+0
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 5i,0n,4p,101b,14s stack positions out of 300i,100n,500p,50000b,4000s
+No pages of output.
