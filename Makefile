@@ -8,12 +8,18 @@ PS=CV.ps
 RTF=CV.rtf
 
 # Apps
+SVK=svk 
 LATEX=latex
 DVIPDF=dvipdf
 PDFPS=pdf2ps
 LATEX2HTML=latex2html
 LATEX2RTF=latex2rtf
 
+update:
+	$(SVK) update
+
+up:
+	$(SVK) update
 
 dvi:
 	$(LATEX) $(SOURCE)
