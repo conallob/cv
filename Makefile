@@ -15,6 +15,9 @@ PDFPS=pdf2ps
 LATEX2HTML=latex2html
 LATEX2RTF=latex2rtf
 
+all: dvi  pdf  ps  rfc 
+#html  
+
 update:
 	$(SVK) update
 
@@ -36,8 +39,6 @@ html:
 
 rtf:
 	$(LATEX2RTF) $(SOURCE)
-
-all: dvi  pdf  ps  html  rtf
 
 clean:
 	rm *.aux *.log	
