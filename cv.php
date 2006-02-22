@@ -59,12 +59,12 @@ any text editor/pager program -
 portability.
 </li>
 /-->
-
+<!--
 <li>
 <a href =" CV/" title =" Browsable HTML Format">.html</a> - Browsable
 <acronym title="HyperText Markup Language">HTML</acronym> Version
 </li>
-
+//-->
 </ul>
 
 <br /><br /><br />

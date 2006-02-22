@@ -27,10 +27,10 @@ up:
 dvi:
 	$(LATEX) $(SOURCE)
 	
-pdf:
+pdf: dvi
 	$(DVIPDF) $(DVI)
 
-ps:
+ps: dvi
 	$(PDFPS) $(PDF)
 
 html:
