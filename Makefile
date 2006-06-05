@@ -15,7 +15,7 @@ PDFPS=pdf2ps
 LATEX2HTML=latex2html
 LATEX2RTF=latex2rtf
 
-all: dvi  pdf  ps  rtf 
+all: dvi  pdf  ps  rfc 
 #html  
 
 update:
