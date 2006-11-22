@@ -15,14 +15,18 @@ PDFPS=pdf2ps
 LATEX2HTML=latex2html
 LATEX2RTF=latex2rtf
 
-all: dvi  pdf  ps  rtf 
-#html  
+all: dvi  pdf  ps  rtf html  
+
+
+commit:
+	$(SVK) commit
+
+ci: commit
 
 update:
 	$(SVK) update
 
-up:
-	$(SVK) update
+up: update
 
 dvi:
 	$(LATEX) $(SOURCE)
