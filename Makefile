@@ -7,11 +7,8 @@ PDF=CV.pdf
 PS=CV.ps
 RTF=CV.rtf
 
-# Paths
-WWW=/www/conall.net/cv/
-
 # Apps
-HG=/usr/local/bin/hg
+SVK=svk 
 LATEX=latex
 DVIPDF=dvipdf
 PDFPS=pdf2ps
@@ -22,12 +19,12 @@ all: dvi  pdf  ps  rtf html
 
 
 commit:
-	$(HG) commit
+	$(SVK) commit
 
 ci: commit
 
 update:
-	$(HG) update
+	$(SVK) update
 
 up: update
 
@@ -46,9 +43,6 @@ html:
 
 rtf:
 	$(LATEX2RTF) $(SOURCE)
-
-publish: pdf rtf html
-   cp *.{pdf,rtc,html,php} "${WWW}/"
 
 clean:
 	rm *.aux *.log	
