@@ -8,7 +8,7 @@ PS=CV.ps
 RTF=CV.rtf
 
 # Apps
-SVK=svk 
+GIT=git 
 LATEX=latex
 DVIPDF=dvipdf
 PDFPS=pdf2ps
@@ -19,12 +19,12 @@ all: dvi  pdf  ps  rtf html
 
 
 commit:
-	$(SVK) commit
+	$(GIT) commit
 
 ci: commit
 
 update:
-	$(SVK) update
+	$(GIT) update
 
 up: update
 
