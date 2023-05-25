@@ -10,7 +10,9 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: CV.tex
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v3
+      - name: Upload PDF
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
         with:
-          name: PDF
+          files: |
+            CV.pdf
