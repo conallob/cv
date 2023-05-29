@@ -2,7 +2,7 @@ matrix:
 - name: Python Source
   sources:
   - pyspelling/**/*.py
-    default_encoding: utf-8
+  default_encoding: utf-8
   aspell:
     lang: en
     d: en_IE
