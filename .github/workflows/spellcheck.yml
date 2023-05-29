@@ -1,0 +1,10 @@
+matrix:
+- name: Python Source
+  sources:
+  - pyspelling/**/*.py
+  aspell:
+    lang: en
+    d: en_IE
+  dictionary:
+    wordlists:
+    wordlist.txt
