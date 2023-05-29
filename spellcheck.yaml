@@ -2,9 +2,11 @@ matrix:
 - name: Python Source
   sources:
   - pyspelling/**/*.py
+    default_encoding: utf-8
   aspell:
     lang: en
     d: en_IE
   dictionary:
     wordlists:
-    wordlist.txt
+      - wordlist.txt
+    encoding: utf-8
