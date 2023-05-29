@@ -1,7 +1,7 @@
 matrix:
 - name: Python Source
   sources:
-  - pyspelling/**/*.py
+  - CV.tex
   default_encoding: utf-8
   aspell:
     lang: en
