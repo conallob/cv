@@ -16,6 +16,7 @@ MacPorts
 Observability
 OKR
 PromQL
+Responder
 SLO
 SRE
 SysOps
@@ -32,9 +33,10 @@ https
 io
 linkedin
 nd
+observability
 occasonally
 onboarding
-pratices
+responder
 scalable
 # Latex Commands
 begingroup
