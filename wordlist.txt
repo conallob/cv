@@ -52,6 +52,7 @@ itemize
 itemsep
 multicol
 multicols
+newpage
 noitemsep
 pagenumbering
 parindent
