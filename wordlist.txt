@@ -56,6 +56,7 @@ multicol
 multicols
 newpage
 noitemsep
+normalsize
 pagenumbering
 parindent
 parsep
