@@ -4,6 +4,7 @@ Blackrock
 CDN
 CoderDojo
 DevOps
+DocuSign
 FreeBSD
 Grafana
 GraphViz
@@ -23,6 +24,7 @@ RCS
 SLO
 SRE
 SysOps
+TechOps
 Turnup
 UI
 UX
