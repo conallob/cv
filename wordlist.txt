@@ -11,6 +11,7 @@ GraphViz
 Homebrewing
 IPv
 JunOS
+KQL
 LaTeX
 MacOS
 MacPorts
@@ -22,6 +23,7 @@ PromQL
 Responder
 Responders
 RCS
+SDLC
 SLO
 SRE
 SysOps
