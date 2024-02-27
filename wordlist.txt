@@ -16,6 +16,7 @@ MacOS
 MacPorts
 Observability
 OKR
+Onboarded
 OOB
 PromQL
 Responder
@@ -42,7 +43,7 @@ io
 linkedin
 nd
 observability
-occasonally
+oncall
 onboarding
 responder
 scalable
