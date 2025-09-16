@@ -9,6 +9,7 @@ CoderDojo
 DevOps
 DocuSign
 FreeBSD
+GPUs
 Gitlab
 Grafana
 GraphViz
@@ -18,9 +19,11 @@ JQL
 JunOS
 KQL
 Kubernetes
+LLM
 LaTeX
 MacOS
 MacPorts
+NVidia
 Observability
 OKR
 Onboarded
@@ -42,6 +45,7 @@ UX
 VM
 Websearch
 YouTube
+ai
 balancers
 blackbox
 centering
@@ -56,6 +60,7 @@ https
 io
 linkedin
 nd
+neocloud
 newhires
 observability
 oncall
