@@ -4,8 +4,10 @@ Ansible
 ArgoCD
 Blackrock
 CDN
+ChatGPT
 Cloudprober
 CoderDojo
+CrusoeCloud
 DevOps
 DocuSign
 FreeBSD
