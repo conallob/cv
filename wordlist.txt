@@ -27,6 +27,7 @@ LaTeX
 MacOS
 MacPorts
 NVidia
+cdot
 Observability
 OKR
 Onboarded
@@ -44,7 +45,7 @@ SRE
 SysOps
 TechOps
 Terraform
-Treoge
+Tregoe
 Turnup
 UI
 UX
