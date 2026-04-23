@@ -42,6 +42,7 @@ NVidia
 cdot
 Observability
 OKR
+onboarded
 Onboarded
 OOB
 OpenTofu
@@ -71,6 +72,7 @@ Websearch
 YouTube
 Windsurf
 ai
+balancer
 balancers
 blackbox
 centering
@@ -91,6 +93,7 @@ observability
 oncall
 onboarding
 responder
+queryable
 scalable
 # Latex Commands
 begingroup
