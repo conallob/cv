@@ -86,9 +86,9 @@ detail orientated, analytical, self starter and strong team player.
   \begin{itemize}[noitemsep]
   \item Operating Systems/Environments: Linux (Debian, Ubuntu, Red Hat), FreeBSD, MacOS X / MacOS, JunOS, Apple iOS
   \item Cloud Technologies: Containers, Container Orchestration (Google's Borg, Kubernetes), Terraform/OpenTofu
-  \item CI/CD: GitHub Actions, Azure DevOps Pipelines, Gitlab CI, ArgoCD, Ansible
+  \item CI/CD: GitHub Actions, Azure DevOps Pipelines, Gitlab CI, ArgoCD, Ansible/AWX
   \item Source Control: Piper (Google's Internal Perforce derivative), Git, Mercurial, Subversion, Perforce, CVS, RCS
-  \item AI Agents: Claude, Claude Code, Windsurf, ChatGPT
+  \item AI Tooling: Claude, Claude Code, Gemini, Windsurf, ChatGPT, Custom MCPs
   \item Programming Languages: Go, Python (including Django Framework), Bash
   \item Query Languages: PromQL, BigQuery, SQL, JQL, KQL
   \item Markup Languages \& Documentation: HTML, Markdown, GraphViz DOT, D2, \LaTeX, Wiki
@@ -107,17 +107,21 @@ Crusoe.ai is a sustainable energy focused "neocloud" Cloud computing provider, o
 VM and managed GPU-as-a-service solutions for LLM training and LLM Inference, powered by NVIDIA (H100, H200, B200, GB200, etc)
 and AMD (MI355X, etc) GPUs.
 
-I was the first engineer and third employee hired outside of the US. Worked with local manager \& recruiter to help grow the local SRE team to 10
+I was the first engineer and third employee hired outside of the US. Worked with local manager \& recruiter to help grow the local SRE team to 15
 \& the local office to 35+.
 
 \begin{itemize}[noitemsep]
-	\item Overhauled SRE onboarding, replacing tribal knowledge with structured documentation, recorded talks \& a peer-forum, measurably reducing ramp time for every subsequent SRE hire
-	\item Designed \& implemented a managed, multi-environment synthetic observability platform (Cloudprober) spanning VM control plane, CrusoeCloud, Kubernetes \& bare-metal fleet; onboarded 8+ internal teams as users
-	\item Became the observability \& PromQL/MetricQL expert across SRE, engineering \& Customer Success; presented Cloudprober to the company-wide Cloud Availability Forum
+	\item Overhauled SRE onboarding, replacing tribal knowledge with structured documentation, recorded talks \& a peer-forum, measurably reducing ramp time for
+	      every subsequent SRE hire
+	\item Designed \& implemented a managed, CI/CD driven, multi-environment synthetic observability platform (Cloudprober) spanning VM control plane, CrusoeCloud,
+	      Kubernetes \& bare-metal fleet; onboarded 8+ internal teams as users. Contributed upstream fixes to open-source Cloudprober
+	\item Became the observability \& PromQL/MetricQL expert across SRE, Engineering \& Customer Success
 	\item Served as Incident Commander for 20+ SEV1/SEV2 incidents over 4 months, authoring postmortems and driving systemic fixes; became accredited Kepner-Tregoe Practitioner
-	\item Joined SDN oncall embedded rotation; identified \& fixed repeating oncall issues, and landed 5x--10x scaling of the SDN control plane through load balancer tuning, horizontal pod autoscaling \& targeted Kubernetes optimisations across all production locations
-	\item Built CI/CD pipeline via GoReleaser for the internal Cloudprober platform; contributed upstream fixes to open-source Cloudprober (\texttt{github.com/cloudprober/cloudprober})
-    \item Closed the automation engine observability gap by publishing both Ansible/AWX playbook execution history \& fleet-wide node metadata as queryable metrics; resulting impacts included reducing detection time of automation-executed changes during incidents from O(hours) to O(minutes), \& reducing non-actionable pages to oncallers by 90+\%
+	\item Joined SDN oncall embedded rotation; identified \& fixed underlying root causes for repeating oncall issues, landed 5x - 10x scaling of the SDN control plane
+	      through load balancer tuning, horizontal pod autoscaling \& targeted Kubernetes optimisations
+    \item Closed multiple automation engine observability gaps by publishing both Ansible/AWX playbook execution history \& fleet-wide node metadata as queryable
+	      metrics; resulting impacts included reducing detection time of automation-executed changes during incidents from O(hours) to O(minutes), \& a
+		  90+\% reduction in non-actionable pages
 \end{itemize}
 
 \subsection*{DocuSign}
@@ -200,7 +204,8 @@ balancing for all Google products and the Google CDN.
   	\item Formed a group to maintain globally distributed, out-of-band disaster recovery access systems. Developed monitoring and alerting to
    		detect issues across the OOB systems.
  	\item Hosted an intern, who successfully converted to a full-time Product Manager
-	\item Designed \& implemented a Cluster Health Console; a cross-cutting RAG status dashboard spanning all Google infrastructure within a cluster, used by Incident Commanders to debug low-level issues \& inform decisions such as whether to EPO a location
+	\item Designed \& implemented a Cluster Health Console; a cross-cutting RAG status dashboard spanning all Google infrastructure
+	    within a cluster, used by Incident Commanders to debug low-level issues \& inform decisions such as whether to perform an Emergency Power-Off
 \end{itemize}
 
 \subsubsection*{Systems Engineer - SysOps (June 2006 - June 2009)}
