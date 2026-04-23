@@ -2,3 +2,5 @@
 *.aux
 *.dvi
 *.log
+# Ignore pdf and ps, they are attached to releases
+*.pdf
