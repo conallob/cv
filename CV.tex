@@ -111,12 +111,13 @@ I was the first engineer and third employee hired outside of the US. Worked with
 \& the local office to 35+.
 
 \begin{itemize}[noitemsep]
-	\item Overhauled SRE ad-hoc onboarding process, replacing tribal knowledge with structured documentation, recorded talks \& a forum of new hires helping new hires, resulting in a measurable reduction in onboarding time for every new SRE hire
- 	\item Designed \& Implemented a managed, multi environment platform (VM Control Plane, CrusoeCloud, Kubernetes and Fleet-wide Bare Metal) synthetic observability tool, built on Cloudprober with custom extensions
-	\item Onboarded 8+ teams as users of the Managed Cloudprober platform
-    \item Recognised as the observability \& PromQL expert across the company including SRE, multiple dev teams \& Customer Success
- 	\item Joined Cloud Storage \& Incident Commander oncall rotations, serving as Incident Commander for 20+ incidents in 4 months
-	\item Joined SDN oncall rotation, reducing oncall issues with systemic fixes, landed 5x - 10x scaling of the SDN control plane by tuning Kubernetes load balancing \& removing bottlenecks
+	\item Overhauled SRE onboarding, replacing tribal knowledge with structured documentation, recorded talks \& a peer-forum, measurably reducing ramp time for every subsequent SRE hire
+	\item Designed \& implemented a managed, multi-environment synthetic observability platform (Cloudprober) spanning VM control plane, CrusoeCloud, Kubernetes \& bare-metal fleet; onboarded 8+ internal teams as users
+	\item Became the observability \& PromQL/MetricQL expert across SRE, engineering \& Customer Success; presented Cloudprober to the company-wide Cloud Availability Forum
+	\item Served as Incident Commander for 20+ SEV1/SEV2 incidents over 4 months, authoring postmortems and driving systemic fixes; became accredited Kepner-Tregoe Practitioner
+	\item Joined SDN oncall embedded rotation; identified \& fixed repeating oncall issues, and landed 5x--10x scaling of the SDN control plane through load balancer tuning, horizontal pod autoscaling \& targeted Kubernetes optimisations across all production locations
+	\item Built CI/CD pipeline via GoReleaser for the internal Cloudprober platform; contributed upstream fixes to open-source Cloudprober (\texttt{github.com/cloudprober/cloudprober})
+    \item Closed the automation engine observability gap by publishing both Ansible/AWX playbook execution history \& fleet-wide node metadata as queryable metrics; resulting impacts included reducing detection time of automation-executed changes during incidents from O(hours) to O(minutes), \& reducing non-actionable pages to oncallers by 90+\%
 \end{itemize}
 
 \subsection*{DocuSign}
@@ -199,7 +200,7 @@ balancing for all Google products and the Google CDN.
   	\item Formed a group to maintain globally distributed, out-of-band disaster recovery access systems. Developed monitoring and alerting to
    		detect issues across the OOB systems.
  	\item Hosted an intern, who successfully converted to a full-time Product Manager
-	\item Developed cross functional infrastructure dashboard to streamline Emergency Power Off decisions for Incident Responders.
+	\item Designed \& implemented a Cluster Health Console; a cross-cutting RAG status dashboard spanning all Google infrastructure within a cluster, used by Incident Commanders to debug low-level issues \& inform decisions such as whether to EPO a location
 \end{itemize}
 
 \subsubsection*{Systems Engineer - SysOps (June 2006 - June 2009)}
