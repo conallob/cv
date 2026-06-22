@@ -49,22 +49,25 @@
 
 \section*{About}
 
-Accomplished Staff Site Reliability Engineer with extensive experience in
-large-scale infrastructure, AI/GPU cloud environments, observability,
-SRE best practices, and technical leadership. Led design, implementation,
-and monitoring of multiple large-scale systems, establishing best practices
-across multiple organisations. Developed, mentored, and provided technical
-direction to multiple teams focused on excellence and execution. Served as
-the founding engineer for multiple SRE teams, including Google Network
-Infrastructure SRE, Google Capacity Delivery SRE, and Crusoe AI Dublin SRE.
-Has operated across global technical organisations in diverse, fast-changing,
-and complex environments. Served as Senior Incident Commander and accredited
-Kepner-Tregoe Practitioner. Excellent interpersonal communication and
-organisational skills with an ability to navigate ambiguity, simplify, and
-refine solutions. Out-of-the-box problem solver with a continuous evolution
-mindset. Key strengths: leadership, integrity, collaborative, curious,
-critical thinking, solution focused, detail orientated, analytical, self
-starter, and strong team player.
+17 years at Google across Traffic, Websearch, Network Infrastructure, and
+Capacity Delivery, followed by Staff-level SRE roles at DocuSign and Crusoe.
+Over two decades designing and operating infrastructure at scale: global load
+balancing, large-scale distributed systems, distributed observability pipelines,
+and SDN. Repeatedly the founding engineer for new teams --- bootstrapping
+Google Network Infrastructure SRE, Google Capacity Delivery SRE, and Crusoe
+Dublin SRE from a standing start, building teams, practice, and culture each
+time. Authored 6,500+ code changes and reviewed 6,000+ --- consistently
+hands-on at every level of seniority.
+
+Deepest specialisation is observability: monitoring philosophy, PromQL
+expertise, and alerting culture. Awarded the Google Cloud Impact Award
+(previously Feat of Engineering) for replacing a 15-year-old monitoring system
+with modern SLO-based approaches; published SRE-wide alerting best practices
+at Google. Equally comfortable in the internals of a container orchestrator or
+at a whiteboard navigating ambiguity with a cross-functional team. Reduces toil
+systematically, and applies Kepner-Tregoe structured reasoning when problems
+are complex or poorly defined. Accredited Kepner-Tregoe Practitioner and Senior
+Incident Commander.
 
 \section*{Skills}
 
@@ -116,17 +119,20 @@ I was the first engineer and third employee hired outside of the US. Worked with
 \& the local office to 35+.
 
 \begin{itemize}[noitemsep]
-	\item Overhauled SRE onboarding, replacing tribal knowledge with structured documentation, recorded talks \& a peer-forum, measurably reducing ramp time for
-	      every subsequent SRE hire
-	\item Designed \& implemented a managed, CI/CD driven, multi-environment synthetic observability platform (Cloudprober) spanning VM control plane, CrusoeCloud,
-	      Kubernetes \& bare-metal fleet; onboarded 8+ internal teams as users. Contributed upstream fixes to open-source Cloudprober
-	\item Became the observability \& PromQL/MetricQL expert across SRE, Engineering \& Customer Success
-	\item Served as Incident Commander for 20+ high-severity incidents over 4 months, authoring postmortems and driving systemic fixes; became accredited Kepner-Tregoe Practitioner
-	\item Joined SDN oncall embedded rotation; identified \& fixed underlying root causes for repeating oncall issues, landed 5x - 10x scaling of the SDN control plane
-	      through load balancer tuning, horizontal pod autoscaling \& targeted Kubernetes optimisations
-    \item Closed multiple automation engine observability gaps by publishing both Ansible/AWX playbook execution history \& fleet-wide node metadata as PromQL
-	      metrics; resulting impacts included reducing detection time of automation-executed changes during incidents from O(hours) to O(minutes), \& a
-		  90+\% reduction in non-actionable pages
+	\item Overhauled SRE onboarding, replacing tribal knowledge with structured documentation, recorded talks, and a peer forum of new
+		hires helping new hires --- measurably reducing ramp time for every subsequent hire.
+	\item Designed \& implemented a multi-environment (VM, bare-metal, Kubernetes) synthetic network observability tool built on
+		Cloudprober with custom extensions; adopted by 8+ internal teams. Contributed upstream fixes to open-source Cloudprober.
+	\item Recognised PromQL and observability expert across SRE, multiple engineering teams, and Customer Success.
+	\item Instrumented Ansible playbooks to expose firmware manifest state via \texttt{node\_exporter}, enabling PromQL-gated alerts ---
+		reducing alert volume from 100+ pages per 12-hour shift to $\sim$1--2 during active firmware rollouts.
+	\item Extended Ansible playbook instrumentation to publish precise per-node start and completion timestamps, providing automatic
+		change-correlation breadcrumbs that dramatically reduced mean time to identify the causative change during multi-node incidents.
+	\item Redesigned OVSDB Relay architecture from a brittle per-node \texttt{readinessProbe} setup to a NEG L4 load balancer with
+		weighted TCP health checks and Kubernetes horizontal autoscaling --- eliminating repeated paging on OVN Controller turn-up
+		and achieving 10$\times$ SDN scalability.
+	\item Reached oncall readiness across 4 distinct rotations within 12 months, commanding 20+ incidents across Cloud Storage,
+		Incident Commander, and SDN --- reflecting consistent ability to absorb complex, unfamiliar systems rapidly.
 \end{itemize}
 
 \subsection*{DocuSign}
@@ -173,13 +179,16 @@ Google's network. This team was formed following the reorganisation of
 ~100 Network Engineers into the SRE Organisation.
 
 \begin{itemize}[noitemsep]
+	\item Awarded a 2021 Google Cloud Impact Award (previously Feat of Engineering) as SRE Lead of the cross-functional team that
+		decommissioned a 15+ year-old blackbox monitoring system, replacing packet-drop alerting with SLO targets and Error Budget concepts.
+	\item Led the embedded upskilling of $\sim$20 Network Engineers into SRE practices as part of the broader $\sim$80--90 engineer
+		transition into the SRE organisation by Q4 2018 --- featured in a Google Cloud blog post on transitioning engineering-ops
+		teams into SRE (\texttt{cloud.google.com/blog}).
+	\item Documented \& published Google SRE-wide best practices for alerting (publication in progress at \texttt{sre.google}).
+	\item Informally mentored 10+ engineers with observability interest across the organisation.
 	\item Specialised in unified monitoring solutions and acted as observability expert across multiple teams.
-	\item Taught and mentored SRE Practices, Large Scale Systems Design, Monitoring \& Practical Scripting to multiple teams.
- 	\item Hosted two interns, one of which successfully converted to a full-time Site Reliability Engineer
-	\item Documented \& published Google SRE wide best practices for alerting.
-	\item Awarded a 2021 Feat of Engineering Award, for SRE Lead of a cross functional team which decommissioned a 15+ year old blackbox
-		monitoring tool. Replaced packet drop alerting with new SLO targets \& Error Budget concepts.
-	\item Served as an Incident Responder to numerous user facing outages of various severity, including some with real-time media coverage
+	\item Hosted two interns, one of which successfully converted to a full-time Site Reliability Engineer.
+	\item Served as Incident Responder to numerous user-facing outages of various severity, including some with real-time media coverage.
 \end{itemize}
 
 \subsubsection*{Senior Site Reliability Engineer - Search (January 2013 - March 2016)}
@@ -189,6 +198,7 @@ Member of the Search SRE team, responsible for Google Websearch.
 \begin{itemize}[noitemsep]
 	\item Led team of experts in the observability of Websearch providing guidance \& continuous improvements.
 	\item Developed multiple features and member of Core Viceroy team, a Google internal equivalent of Managed Grafana.
+		Viceroy is featured as a case study in the Google SRE Book (\texttt{sre.google/sre-book}).
   	\item Led an effort to create a single touch, automated CI/CD release pipeline for the Static HTTP Server powering Google Websearch \& YouTube.
    	\item Hosted an intern, who successfully converted to a full-time Site Reliability Engineer
 	\item Achieved sub-linear growth through Problem Solving \& Toil Reduction, Process Engineering \& Automation Development.
