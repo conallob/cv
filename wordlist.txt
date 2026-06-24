@@ -106,6 +106,10 @@ upskilling
 sre
 # Latex Commands
 texttt
+hidelinks
+href
+hyperref
+ZKsVCZ
 begingroup
 documentclass
 endgroup
