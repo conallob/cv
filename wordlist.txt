@@ -86,6 +86,7 @@ hoc
 https
 io
 linkedin
+mailto
 nd
 neocloud
 newhires
