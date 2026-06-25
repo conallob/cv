@@ -110,6 +110,7 @@ colorlinks
 urlcolor
 linkcolor
 titlesec
+titleformat
 titlespacing
 hidelinks
 href
