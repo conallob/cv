@@ -110,7 +110,10 @@ colorlinks
 urlcolor
 linkcolor
 titlesec
+titleformat
 titlespacing
+bfseries
+itshape
 hidelinks
 href
 hyperref
