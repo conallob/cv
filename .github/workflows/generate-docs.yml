@@ -9,7 +9,7 @@ jobs:
       - name: Spell Check
         uses: igsekor/pyspelling-any@v1.0.4
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: CV.tex
       - name: Generate DocX
