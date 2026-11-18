@@ -7,7 +7,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Spell Check
-        uses: igsekor/pyspelling-any@v1.0.4
+        uses: igsekor/pyspelling-any@v1.0.5
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
